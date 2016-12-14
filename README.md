@@ -1,12 +1,11 @@
-# auto_checkin
-auto check in
+auto check in script
 
-Prepare the Enviroment:
+#Prepare the Enviroment:
 
 pip install selenium
 
-#sudo apt-get install chromedriver
 wget http://chromedriver.storage.googleapis.com/2.26/chromedriver_linux64.zip
+
 wget http://chromedriver.storage.googleapis.com/2.26/chromedriver_linux32.zip
 
 unzip chromedriver_linux64.zip

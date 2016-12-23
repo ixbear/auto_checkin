@@ -17,7 +17,7 @@ print "Visit %s ..." %(req_url)
 browser.get(req_url)
 
 browser.find_element_by_id("username").send_keys("xiakening")
-browser.find_element_by_id("password").send_keys("JEFFkobe9527@")
+browser.find_element_by_id("password").send_keys("PASSWORD")
 browser.find_element_by_class_name("formsubmit_btn").click()
 
 time.sleep(2)

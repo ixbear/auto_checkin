@@ -18,6 +18,10 @@ set Path=%Path%;C:\Program Files (x86)\Python2.7.13    #append a new dir to Path
 
 then we can run the python scritp now.
 
+3, you can write a line like below into a .bat file then run this .bat file
+
+set "Path=%Path%;C:\Program Files (x86)\Python2.7.13" && python D:\auto_checkin.py
+
 ======    Linux   System   =======
 
 pip install selenium
